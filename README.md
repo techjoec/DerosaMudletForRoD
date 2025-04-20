@@ -1,4 +1,4 @@
-Requires EMCO to be installed as well, and restart Mudlet.
+Requires EMCO (https://github.com/demonnic/EMCO) to be installed as well, and restart Mudlet.
 
 Must also enable MSDP reporting for some of these on logon:
 
