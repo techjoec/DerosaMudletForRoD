@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<TriggerPackage>
+		<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<name>GUI</name>
+			<script></script>
+			<triggerType>0</triggerType>
+			<conditonLineDelta>0</conditonLineDelta>
+			<mStayOpen>0</mStayOpen>
+			<mCommand></mCommand>
+			<packageName></packageName>
+			<mFgColor>#ff0000</mFgColor>
+			<mBgColor>#ffff00</mBgColor>
+			<mSoundFile></mSoundFile>
+			<colorTriggerFgColor>#000000</colorTriggerFgColor>
+			<colorTriggerBgColor>#000000</colorTriggerBgColor>
+			<regexCodeList />
+			<regexCodePropertyList />
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>EMCOTrigs</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>says</name>
+					<script>demonnic.chat:append("say")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^You\ssay</string>
+						<string> says '</string>
+						<string>\swonders\s\'</string>
+						<string>You\swonder\s\'.*\'</string>
+						<string>You\sexclaim\s\'.*\'</string>
+						<string>\sexclaims\s\'</string>
+						<string>\syells\s\'</string>
+						<string>\syell\s\'</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>0</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>newbiechat</name>
+					<script>demonnic.chat:append("newb")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string> newbiechats '</string>
+						<string>You newbiechat '</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>tells</name>
+					<script>demonnic.chat:append("tell")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string> tells you </string>
+						<string>You tell</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>chats</name>
+					<script>demonnic.chat:append("chat")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string> chats '</string>
+						<string>You chat '</string>
+						<string> asks '</string>
+						<string> answers '</string>
+						<string>You ask '</string>
+						<string>You answer '</string>
+						<string>You openly traffic: auto</string>
+						<string> openly traffics:</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+						<integer>0</integer>
+						<integer>0</integer>
+						<integer>0</integer>
+						<integer>0</integer>
+						<integer>0</integer>
+						<integer>0</integer>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>guildtalk</name>
+					<script>demonnic.chat:append("newb")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string> guildtalks '</string>
+						<string>You guildtalk '</string>
+						<string> ordertalks '</string>
+						<string>You ordertalk '</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+						<integer>0</integer>
+						<integer>0</integer>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>grouptalk</name>
+					<script>demonnic.chat:append("group")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>tells the group '</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>av talk</name>
+					<script>demonnic.chat:append("av")</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>$\w*:\s</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>prompt</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList />
+				<regexCodePropertyList />
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>prompt to miniconsole</name>
+					<script>if not prompt then
+ ui()
+end
+echo(" \[NL:" .. getNetworkLatency() .. "\]")
+selectCurrentLine()
+copy()
+prompt:clear()
+prompt:appendBuffer()
+deleteLine()</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>1</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^\#STATUS.*\-\&lt;|^\&amp;FIGHTING.*\-\&lt;</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>prompt to miniconsole2</name>
+					<script>if msdp.OPPONENT_HEALTH and tonumber(msdp.OPPONENT_HEALTH) &gt;= 0 and msdp.OPPONENT_NAME and msdp.OPPONENT_NAME ~= "" and msdp.OPPONENT_LEVEL then
+ cecho("&lt;royal_blue&gt; \[L:" .. msdp.OPPONENT_LEVEL .. " HP:" .. msdp.OPPONENT_HEALTH .. "%\] ")
+ if avgattacklatency then
+  cecho("&lt;royal_blue&gt; \[AL:" .. avgattacklatency .. "\]")
+ end
+end
+selectCurrentLine()
+copy()
+--prompt:clear()
+prompt:appendBuffer()
+deleteLine()
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>1</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>^\#\w.*\-\&lt;.*hp\s|^\&amp;\w.*\-\&lt;.*hp\s</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+		</TriggerGroup>
+	</TriggerPackage>
+	<TimerPackage />
+	<AliasPackage />
+	<ActionPackage />
+	<ScriptPackage>
+		<ScriptGroup isActive="yes" isFolder="yes">
+			<name>GUI</name>
+			<packageName></packageName>
+			<script></script>
+			<eventHandlerList />
+			<ScriptGroup isActive="yes" isFolder="yes">
+				<name>EMCO</name>
+				<packageName></packageName>
+				<script></script>
+				<eventHandlerList />
+				<Script isActive="yes" isFolder="no">
+					<name>EMCOChat Code</name>
+					<packageName></packageName>
+					<script>local defaultConfig = {activeColor = "black", inactiveColor = "black", activeBorder = "green", activeText = "green", inactiveText = "grey", background = "black", windowBorder = "green"}
+local emco = require("EMCOChat.emco")
+demonnic = demonnic or {}
+demonnic.helpers = demonnic.helpers or {}
+demonnic.config = demonnic.config or defaultConfig
+local baseStyle = Geyser.StyleSheet:new(f [[
+  border-width: 2px; 
+  border-style: solid; 
+]])
+local activeStyle = Geyser.StyleSheet:new(f [[
+  border-color: {demonnic.config.activeBorder};
+  background-color: {demonnic.config.activeColor};
+]], baseStyle)
+local inactiveStyle = Geyser.StyleSheet:new(f [[
+  border-color: {demonnic.config.inactiveColor};
+  background-color: {demonnic.config.inactiveColor};
+]], baseStyle)
+local adjLabelStyle = Geyser.StyleSheet:new(f[[
+  background-color: rgba(0,0,0,100%);
+  border: 4px double;
+  border-color: {demonnic.config.windowBorder};
+  border-radius: 4px;]])
+
+  local default_constraints = {name = "EMCOPrebuiltChatContainer", x = "-25%", y = "-60%", width = "25%", height = "60%"}
+
+
+local chatEMCO = demonnic.chat
+local EMCOfilename = getMudletHomeDir() .. "/EMCO/EMCOPrebuiltChat.lua"
+local confFile = getMudletHomeDir() .. "/EMCO/EMCOPrebuiltExtraOptions.lua"
+
+function demonnic.helpers.echo(msg)
+  msg = msg or ""
+  cecho(f "&lt;green&gt;EMCO Chat: &lt;reset&gt;{msg}\n")
+end
+
+function demonnic.helpers.resetToDefaults()
+  default_constraints.adjLabelstyle = adjLabelStyle:getCSS()
+  demonnic.container = demonnic.container or Adjustable.Container:new(default_constraints)
+  demonnic.config = defaultConfig
+  demonnic.chat = emco:new({
+    name = "EMCOPrebuiltChat",
+    x = 0,
+    y = 0,
+    height = "100%",
+    width = "100%",
+    consoles = {"All", "Local", "City", "OOC", "Tells", "Group"},
+    allTab = true,
+    allTabName = "All",
+    blankLine = true,
+    blink = true,
+    bufferSize = 10000,
+    deleteLines = 500,
+    timestamp = true,
+    fontSize = 12,
+    font = "Ubuntu Mono",
+    consoleColor = demonnic.config.background,
+    activeTabCSS = activeStyle:getCSS(),
+    inactiveTabCSS = inactiveStyle:getCSS(),
+    activeTabFGColor = demonnic.config.activeText,
+    inactiveTabFGColor = demonnic.config.inactiveText,
+    gap = 3,
+    commandLine = true,
+  }, demonnic.container)
+  chatEMCO = demonnic.chat
+  demonnic.helpers.retheme()
+end
+
+function demonnic.helpers.retheme()
+  activeStyle:set("background-color", demonnic.config.activeColor)
+  activeStyle:set("border-color", demonnic.config.activeBorder)
+  inactiveStyle:set("background-color", demonnic.config.inactiveColor)
+  inactiveStyle:set("border-color", demonnic.config.inactiveColor)
+  adjLabelStyle:set("border-color", demonnic.config.windowBorder)
+  local als = adjLabelStyle:getCSS()
+  demonnic.container.adjLabelstyle = als
+  demonnic.container.adjLabel:setStyleSheet(als)
+  chatEMCO.activeTabCSS = activeStyle:getCSS()
+  chatEMCO.inactiveTabCSS = inactiveStyle:getCSS()
+  chatEMCO:setActiveTabFGColor(demonnic.config.activeText)
+  chatEMCO:setInactiveTabFGColor(demonnic.config.inactiveText)
+  chatEMCO:setConsoleColor(demonnic.config.background)
+  chatEMCO:switchTab(chatEMCO.currentTab)
+end
+
+function demonnic.helpers.setConfig(cfg, val)
+  local validOptions = table.keys(demonnic.config)
+  if not table.contains(validOptions, cfg) then
+    return nil, f"invalid option: valid options are {table.concat(validOptions, ', ')}"
+  end
+  demonnic.config[cfg] = val
+  demonnic.helpers.retheme()
+  return true
+end
+
+function demonnic.helpers.save()
+  chatEMCO:save()
+  table.save(confFile, demonnic.config)
+  demonnic.container:save()
+end
+
+function demonnic.helpers.load()
+  if io.exists(confFile) then
+    local conf = {}
+    table.load(confFile, conf)
+    demonnic.config = table.update(demonnic.config, conf)
+  end
+  if io.exists(EMCOfilename) then
+    chatEMCO:hide()
+    chatEMCO:load()
+    chatEMCO:show()
+  end
+  demonnic.container:load()
+  demonnic.helpers.retheme()
+end
+
+local function startup()
+  demonnic.helpers.resetToDefaults()
+  demonnic.helpers.load()
+end
+
+registerNamedEventHandler("demonnicEMCO", "EMCOprebuilt startup", "sysLoadEvent", startup)
+</script>
+					<eventHandlerList />
+				</Script>
+			</ScriptGroup>
+			<Script isActive="yes" isFolder="no">
+				<name>CSSMan</name>
+				<packageName></packageName>
+				<script>-- CSSMan by Vadi. Public domain.
+if not CSSMan then
+CSSMan = {}
+CSSMan.__index = CSSMan
+
+function CSSMan.new(stylesheet)
+  local obj  = { stylesheet = {} }
+  setmetatable(obj,CSSMan)
+  local trim = string.trim
+
+  assert(type(stylesheet) == "string", "CSSMan.new: no stylesheet provided. A possible error is that you might have used CSSMan.new, not CSSMan:new")
+
+  for line in stylesheet:gmatch("[^\r\n]+") do
+    local attribute, value = line:match("^(.-):(.-);$")
+    if attribute and value then
+      attribute, value = trim(attribute), trim(value)
+      obj.stylesheet[attribute] = value
+    end
+  end
+
+  return obj
+end
+
+function CSSMan:set(key, value)
+  self.stylesheet[key] = value
+end
+
+function CSSMan:get(key)
+  return self.stylesheet[key]
+end
+
+function CSSMan:getCSS(key)
+  local lines, concat = {}, table.concat
+  for k,v in pairs(self.stylesheet) do lines[#lines+1] = concat({k,": ", v, ";"}) end
+  return concat(lines, "\n")
+end
+
+function CSSMan:gettable()
+  return self.stylesheet
+end
+
+function CSSMan:settable(tbl)
+  assert(type(tbl) == "table", "CSSMan:settable: table expected, got "..type(tbl))
+
+  self.stylesheet = tbl
+end
+end</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>createguiboxes</name>
+				<packageName></packageName>
+				<script>function createguiboxes(args)
+ if msdp and msdp.CLASS and msdp.CHARACTER_NAME then
+  if not GUI then
+   GUI = {}
+  end
+  if not GUI.BackgroundCSS then
+   GUI.BackgroundCSS = CSSMan.new([[
+    background-color: rgb(20,0,20);
+    ]])
+   GUI.Right = Geyser.Label:new({
+    name = "GUI.Right",
+    x = "-31%", y = 0,
+    width = "31%",
+    height = "60%",
+   })
+   GUI.Right:setStyleSheet(GUI.BackgroundCSS:getCSS())
+  end
+  if not GUI.BoxCSS then
+   GUI.BoxCSS = CSSMan.new([[
+    background-color: rgba(0,0,0,100);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: white;
+    margin: 10px;
+    font-family: monospace;
+    qproperty-alignment: 'AlignLeft | AlignTop';
+   ]])
+   GUI.Box1 = Geyser.Label:new({
+    name = "GUI.Box1",
+    x = 0, y = 0,
+    width = "100%",
+    height = "100%",
+    fontSize = 20,
+   },GUI.Right)
+   GUI.Box1:setStyleSheet(GUI.BoxCSS:getCSS())
+   GUI.Box1:echo("&lt;center&gt;" .. msdp.CLASS .. " - " .. msdp.CHARACTER_NAME)
+
+   GUI.sb = Geyser.Label:new({
+    name = "GUI.sb",
+    x = 0, y = 0,
+    width = "100%",
+    height = "15%",
+    fontSize = 10,
+   },GUI.Box1)
+   GUI.sb:setStyleSheet(GUI.BoxCSS:getCSS())
+
+   GUI.shorts = Geyser.Label:new({
+    name = "GUI.shorts",
+    x = "1%", y = "12%",
+    width = "35%",
+    height = "30%",
+    fontSize = 10,
+   },GUI.Box1)
+   GUI.shorts:setStyleSheet(GUI.BoxCSS:getCSS())
+   GUI.shorts:echo("&lt;center&gt;GUI.shorts")
+
+   GUI.longs = Geyser.Label:new({
+    name = "GUI.longs",
+    x = "33%", y = "12%",
+    width = "35%",
+    height = "87%",
+    fontSize = 10,
+   },GUI.Box1)
+   GUI.longs:setStyleSheet(GUI.BoxCSS:getCSS())
+   GUI.longs:echo("&lt;center&gt;GUI.longs")
+
+   GUI.tankset = Geyser.Label:new({
+    name = "GUI.tankset",
+    x = "65%", y = "12%",
+    width = "35%",
+    height = "50%",
+    fontSize = 10,
+   },GUI.Box1)
+   GUI.tankset:setStyleSheet(GUI.BoxCSS:getCSS())
+   GUI.tankset:echo("&lt;center&gt;GUI.tankset")
+
+   GUI.otherspells = Geyser.Label:new({
+    name = "GUI.otherspells",
+    x = "65%", y = "58%",
+    width = "35%",
+    height = "41%",
+    fontSize = 10,
+   },GUI.Box1)
+   GUI.otherspells:setStyleSheet(GUI.BoxCSS:getCSS())
+   GUI.otherspells:echo("&lt;center&gt;GUI.otherspells")
+
+   GUI.classspells = Geyser.Label:new({
+    name = "GUI.classspells",
+    x = "1%", y = "38%",
+    width = "35%",
+    height = "61%",
+    fontSize = 10,
+   },GUI.Box1)
+   GUI.classspells:setStyleSheet(GUI.BoxCSS:getCSS())
+   GUI.classspells:echo("&lt;center&gt;GUI.classspells")
+  end
+ end
+end</script>
+				<eventHandlerList>
+					<string>msdp.CLASS</string>
+					<string>updateAffects</string>
+				</eventHandlerList>
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>updateGlobalAffsTable</name>
+				<packageName></packageName>
+				<script>function updateGlobalAffsTable()
+ affects = {["list"] = {}}
+ local t = string.gsub(string.gsub(msdp.AFFECTS, "\\007\\007", ";"), "\\007", ""):split(";")
+ affects["length"] = #t
+ for _, item in pairs(t) do
+  local k, v = ""
+  local i = item:split(',')
+  affects.list[i[1]] = i[2]
+ end
+ classbuffs = {}
+ shorts = {"prismatic shield","confidence","shockshield","fireshield","iceshield","sanctuary","acidward"}
+ longs = {"scry","nimbus of light","armor","sagacity","bless","aqua breath","resilience","valiance","fly","float","shield","trollish vigor","elven beauty","slink","ogre might","dragon wit","mind fortress"}
+ tankset = {"flesh armor","inner warmth","shadowform","grounding","blazeward","demonskin","dragonskin","ethereal shield","ethereal web","true sight","antimagic shell","protection","eldritch sphere"}
+ magebuffs = {"pass door","rapture","brawn","adamant","adroitness","sapience","acumen"}
+ hunterbuffs = {"ursine brawn","indomitable","regeneration","forest prayer","falcon sight","lucidity","granite skin","mercuria","camouflage","heighten defense"}
+ if msdp and msdp.CLASS then
+  if string.match(string.lower(msdp.CLASS),"vampire") then
+   table.insert(classbuffs,"obfuscate")
+   table.insert(classbuffs,"potence")
+   table.insert(classbuffs,"stone skin")
+   table.insert(classbuffs,"mistform")
+   table.insert(classbuffs,"kindred strength")
+   table.remove(longs,table.index_of(longs,"ogre might"))
+  elseif string.match(string.lower(msdp.CLASS),"hunter") then
+   table.remove(longs,table.index_of(longs,"bless"))
+   for i,v in pairs(hunterbuffs) do
+    table.insert(classbuffs,v)
+   end
+  elseif string.lower(msdp.CLASS) == "mage" then
+   if magearmy then
+    table.insert(shorts,"acidmist")
+   end
+   table.remove(longs,table.index_of(longs,"ogre might"))
+   table.remove(longs,table.index_of(longs,"sagacity"))
+   table.remove(longs,table.index_of(longs,"slink"))
+   table.remove(longs,table.index_of(longs,"trollish vigor"))
+   table.remove(longs,table.index_of(longs,"dragon wit"))
+   table.remove(longs,table.index_of(longs,"elven beauty"))
+   for i,v in pairs(magebuffs) do
+    table.insert(classbuffs,v)
+   end
+  end
+ end
+ raiseEvent("updateAffects")
+end</script>
+				<eventHandlerList>
+					<string>msdp.AFFECTS</string>
+				</eventHandlerList>
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>updateAffs</name>
+				<packageName></packageName>
+				<script>function updateAffs()
+ if GUI and table.size(GUI) &gt; 0 then
+  affs = table.deepcopy(affects.list)
+  local width = 18
+  local longbuffsString = "&lt;pre&gt;&lt;b&gt;"
+  local shortbuffsString = "&lt;pre&gt;&lt;b&gt;"
+  local tanksetString = "&lt;pre&gt;&lt;b&gt;"
+  local otherspellsString = "&lt;pre&gt;&lt;b&gt;"
+  local classbuffsString = "&lt;pre&gt;&lt;b&gt;"
+ for i,v in spairs(shorts) do
+  if not affs[v] then
+   affs[v] = "-1"
+  end
+ end
+ for i,v in spairs(longs) do
+  if v=="fly" then
+   if not affs[v] then
+    if msdp.FLYING and msdp.FLYING == "Y" then
+     affs[v] = "9999"
+    else
+     affs[v] = "-1"
+    end
+   end
+  elseif not affs[v] then
+   affs[v] = "-1"
+  end
+ end
+ for i,v in spairs(tankset) do
+  if not affs[v] then
+   affs[v] = "-1"
+  end
+ end
+ for i,v in spairs(classbuffs) do
+  if v=="pass door" then
+   if not affs[v] then
+    if msdp.VIS and string.match(msdp.VIS,"T") then
+     affs[v] = "9999"
+    else
+     affs[v] = "-1"
+    end
+   end
+  elseif not affs[v] then
+   affs[v] = "-1"
+  end
+ end
+
+  if table.size(affs) &gt; 0 then
+  
+ --   for k, v in spairs(affs, function(t, a, b) return tonumber(t[a]) &lt; tonumber(t[b]) end) do
+ local sortedaffs = {}
+for k, v in pairs(affs) do
+  table.insert(sortedaffs, {key = k, value = v})
+end
+
+table.sort(sortedaffs, function(a, b)
+  if a.value == b.value then
+    return a.key &lt; b.key
+  end
+    return tonumber(a.value) &lt; tonumber(b.value)
+end)
+
+for _, pair in ipairs(sortedaffs) do
+--  print(pair.key .. " = " .. pair.value)
+--end
+k=pair.key
+v=pair.value
+     spell = k
+      k = k:cut(13)
+      if tonumber(v) == -1 then
+       v = ""
+       color = [["color:gray;"]]
+      elseif tonumber(v) &lt; 30 then
+       color = [["color:red;"]]
+      elseif tonumber(v) &lt; 90 then
+       color = [["color:yellow;"]]
+      else
+       color = [["color:green;"]]
+      end
+      local offset = string.rep("&amp;nbsp;", width - k:len() - v:len())      
+      
+      if table.contains(longs,spell) then
+       longbuffsString = f"{longbuffsString}&lt;div width&gt;&lt;span style={color}&gt;{k}&lt;/span&gt;{offset}&lt;span style={color}&gt;{v}&lt;/span&gt;&lt;/div&gt;"
+      elseif table.contains(shorts,spell) then
+       shortbuffsString = f"{shortbuffsString}&lt;div width&gt;&lt;span style={color}&gt;{k}&lt;/span&gt;{offset}&lt;span style={color}&gt;{v}&lt;/span&gt;&lt;/div&gt;"
+      elseif table.contains(tankset,spell) then
+       tanksetString = f"{tanksetString}&lt;div width&gt;&lt;span style={color}&gt;{k}&lt;/span&gt;{offset}&lt;span style={color}&gt;{v}&lt;/span&gt;&lt;/div&gt;"
+      elseif table.contains(classbuffs,spell) then
+       classbuffsString=f"{classbuffsString}&lt;div width&gt;&lt;span style={color}&gt;{k}&lt;/span&gt;{offset}&lt;span style={color}&gt;{v}&lt;/span&gt;&lt;/div&gt;"
+      else
+       otherspellsString=f"{otherspellsString}&lt;div width&gt;&lt;span style={color}&gt;{k}&lt;/span&gt;{offset}&lt;span style={color}&gt;{v}&lt;/span&gt;&lt;/div&gt;"
+      end
+    end
+    GUI.shorts:echo(shortbuffsString .. "&lt;/b&gt;&lt;/pre&gt;")
+    GUI.longs:echo(longbuffsString .. "&lt;/b&gt;&lt;/pre&gt;")
+    GUI.tankset:echo(tanksetString .. "&lt;/b&gt;&lt;/pre&gt;")
+    GUI.otherspells:echo(otherspellsString .. "&lt;/b&gt;&lt;/pre&gt;")
+    GUI.classspells:echo(classbuffsString .. "&lt;/b&gt;&lt;/pre&gt;")
+--    menu.Affectscenter:echo(shortbuffsString .. "&lt;/pre&gt;")
+
+  else
+--    menu.Affectscenter:clearWindow()
+    GUI.shorts:clearWindow()
+    GUI.longs:clearWindow()
+    GUI.tankset:clearWindow()
+    GUI.otherspells:clearWindow()
+    GUI.classspells:clearWindow()
+  end
+end
+end</script>
+				<eventHandlerList>
+					<string>updateAffects</string>
+				</eventHandlerList>
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>world_time_update</name>
+				<packageName></packageName>
+				<script>function world_time_update(event,time)
+ time = tonumber(time)
+ if GUI and GUI.Box1 then
+ if time &gt; 11 then
+  current_world_time = "p"
+ else
+ current_world_time = "a"
+ end
+ if time &gt; 12 then
+  time = time - 12
+ end
+ current_world_time=time .. current_world_time
+ GUI.Box1:echo("&lt;center&gt;" .. current_world_time .. "  " .. msdp.CLASS .. " - " .. msdp.CHARACTER_NAME)
+ end
+end</script>
+				<eventHandlerList>
+					<string>world_time_update</string>
+				</eventHandlerList>
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>world_time</name>
+				<packageName></packageName>
+				<script>function world_time()
+if msdp and msdp.WORLD_TIME and msdp.WORLD_TIME ~= "" then
+ raiseGlobalEvent("world_time_update",msdp.WORLD_TIME)
+ raiseEvent("world_time_update",msdp.WORLD_TIME)
+end
+end</script>
+				<eventHandlerList>
+					<string>msdp.WORLD_TIME</string>
+				</eventHandlerList>
+			</Script>
+			<ScriptGroup isActive="yes" isFolder="yes">
+				<name>prompt</name>
+				<packageName>prompt</packageName>
+				<script></script>
+				<eventHandlerList />
+				<Script isActive="yes" isFolder="no">
+					<name>ui</name>
+					<packageName></packageName>
+					<script>function ui(arg1,arg2,arg3)
+--echo("\n\nBOOM??\n\n")
+if getMainWindowSize() and getBackgroundColor() then
+local w,h = getMainWindowSize()
+local r, g, b, a = getBackgroundColor()
+if not w or not h or not r or not g or not b or not a then
+ echo("\nSOMETHING WENT WRONG WITH THE UI PROMPT CODE!\n")
+end
+
+--setBorderBottom(.05*h)
+setBorderBottom(.07*h)
+bottomCSS = Geyser.StyleSheet:new(f[[
+  background-color: rgb({r},{g},{b}, {a});
+]])
+
+bottom = Geyser.Label:new({
+  name = "bottom",
+  x = 0, y = "93%",
+  width = "60%",
+  --height = getBorderBottom()
+  height = .05*h
+})
+bottom:setStyleSheet(bottomCSS:getCSS())
+
+prompt = Geyser.MiniConsole:new({
+  name = "prompt",
+  x = 0, y = 0,
+  width = "100%", height = "2c",
+  fontSize = 14
+}, bottom)
+setBackgroundColor("prompt", r, g, b, a)
+else
+echo("\nUI DEBUG\n")
+end
+end</script>
+					<eventHandlerList>
+						<string>sysWindowResizeEvent</string>
+					</eventHandlerList>
+				</Script>
+			</ScriptGroup>
+		</ScriptGroup>
+	</ScriptPackage>
+	<KeyPackage />
+	<VariablePackage>
+		<HiddenVariables />
+	</VariablePackage>
+</MudletPackage>
